@@ -1,0 +1,10 @@
+FROM python:3.11-slim
+
+WORKDIR /app
+
+RUN pip install nemoguardrails>=0.10.0 uvicorn fastapi
+
+COPY guardrails/ ./guardrails/
+
+# NeMo Guardrails has a built-in server
+CMD ["nemoguardrails", "server","--config", "./guardrails","--port", "8080"]

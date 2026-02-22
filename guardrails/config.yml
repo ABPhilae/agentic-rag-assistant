@@ -1,0 +1,23 @@
+# NeMo Guardrails configuration for banking audit assistant
+models:
+  - type: main
+    engine: openai
+    model: gpt-4o-mini
+
+rails:
+  input:
+    flows:
+      - check for prompt injection
+      - check for sensitive data
+
+  output:
+    flows:
+      - check output for pii
+      - check for hallucination
+
+  dialog:
+    flows:
+      - check topic relevance
+
+# Colang version
+colang_version: '2.x'
