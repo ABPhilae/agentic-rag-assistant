@@ -1,0 +1,22 @@
+BNP PARIBAS INTERNAL AUDIT — SINGAPORE BRANCH
+REGULATORY COMPLIANCE SUMMARY — Q3 2025
+
+FINDING SG-2024-003: Access Control Review — Trading System
+Severity: Significant
+Business Area: Technology Risk
+Owner: Carol Tan, IT Security Manager
+Target Date: 2026-04-30
+Status: In Progress
+Description: Annual access rights review for the trading platform is
+overdue by 45 days. 23 accounts have not been recertified.
+MAS Reference: Technology Risk Management Guidelines Section 8.1
+
+FINDING SG-2024-011: PDPA Data Retention Non-Compliance
+Severity: Moderate
+Business Area: Retail Banking — Data Management
+Owner: David Wong, Data Privacy Officer
+Target Date: 2026-06-30
+Status: Open
+Description: Customer onboarding documents are retained beyond the
+5-year PDPA requirement for 1,240 inactive accounts.
+MAS Reference: MAS Notice 655, PDPA Section 25
